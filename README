@@ -1,0 +1,13 @@
+
+
+This archive contains the distribution Lingua-ENG-Inflect,
+version 0.044:
+
+  The exportable subroutines of Lingua::ENG::Inflect provide plural inflections, "a"/"an" selection for English words, and manipulation of numbers as words
+
+This software is copyright (c) 2012 by Damian Conway.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+
