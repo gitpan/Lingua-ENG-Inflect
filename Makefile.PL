@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "The exportable subroutines of Lingua::ENG::Inflect provide plural inflections, \"a\"/\"an\" selection for English words, and manipulation of numbers as words",
+  "ABSTRACT" => "Plural inflection for ENG.",
   "AUTHOR" => "Damian Conway <damian\@conway.org>",
   "BUILD_REQUIRES" => {
     "Test::More" => 0,
@@ -28,7 +28,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "vars" => 0
   },
-  "VERSION" => "0.044",
+  "VERSION" => "0.0577",
   "test" => {
     "TESTS" => "t/*.t"
   }

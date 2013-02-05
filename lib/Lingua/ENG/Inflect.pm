@@ -1,5 +1,5 @@
 package Lingua::ENG::Inflect;
-# ABSTRACT: The exportable subroutines of Lingua::ENG::Inflect provide plural inflections, "a"/"an" selection for English words, and manipulation of numbers as words
+# ABSTRACT: Plural inflection for ENG.
 
 use strict;
 use vars qw($VERSION @EXPORT_OK %EXPORT_TAGS @ISA);
@@ -8,8 +8,7 @@ use Env;
 require Exporter;
 @ISA = qw(Exporter);
 
-my($ver)      = ('$Rev: 440 $' =~ m{(\d+)}xms);
-our $VERSION = $ver / 10_000;
+our $VERSION = 0.0577;
 
 %EXPORT_TAGS =
 (
@@ -1621,7 +1620,7 @@ Lingua::ENG::Inflect - Convert singular to plural. Select "a" or "an".
 
 =head1 VERSION
 
-version 0.044
+version 0.0577
 
 =head1 SYNOPSIS
 
@@ -1791,6 +1790,8 @@ version 0.044
 
 
 =head1 DESCRIPTION
+
+Plural inflection for ENG.
 
 The exportable subroutines of Lingua::ENG::Inflect provide plural
 inflections, "a"/"an" selection for English words, and manipulation
@@ -2717,6 +2718,7 @@ thousand, nine hundred and ninety-nine :-)
 The problem is that C<NUMWORDS> doesn't know any
 words for number components bigger than "decillion".
 
+=back
 
 =head1 OTHER ISSUES
 

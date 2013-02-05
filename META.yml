@@ -1,5 +1,5 @@
 ---
-abstract: "The exportable subroutines of Lingua::ENG::Inflect provide plural inflections, \"a\"/\"an\" selection for English words, and manipulation of numbers as words"
+abstract: 'Plural inflection for ENG.'
 author:
   - 'Damian Conway <damian@conway.org>'
 build_requires:
@@ -19,4 +19,4 @@ requires:
   Exporter: 0
   strict: 0
   vars: 0
-version: 0.044
+version: 0.0577

@@ -3,8 +3,6 @@
 use strict;
 use warnings;
 
-use lib $ENV{PMLIB_INC};
-
 use Lingua::ENG::Inflect qw(PL_N classical);
 use Test::More 'no_plan';
 
